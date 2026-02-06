@@ -19,3 +19,28 @@ Edit the `main.py` file to include your specific IDs:
 ```text
 discord.py
 datetime
+```
+
+## 📜 Commands
+| Command | Category | Description |
+| :--- | :--- | :--- |
+| `.gif` | **Media** | Deploys a random media sequence from the database. |
+| `.status` | **Info** | Displays real-time bot performance and server metrics. |
+| `.socials` | **Info** | Shows server-specific social media and project links. |
+| `.help` | **Info** | Opens the System Control Center (Help Menu). |
+| `.addgif <link>`| **Admin** | Indexes a new media link into the `gif.txt` file. |
+| `.giflist` | **Admin** | Exports and sends the full database via DM (Admin only). |
+| `.say <text>` | **Admin** | Broadcasts a custom message in an embed. |
+| `.clear <n>` | **Admin** | Purges a specific number of messages from the channel. |
+
+## 🚀 Installation
+1. Clone the repository to your local machine or hosting provider.
+2. Create a `gif.txt` file in the root directory.
+3. Install dependencies: `pip install discord.py datetime`.
+4. Run the bot: `python main.py`.
+
+---
+## 🌐 Connect with the Creator
+- **Website:** [anyboot.ct.ws](https://anyboot.ct.ws)
+
+*Developed with ❤️ for the community.*
